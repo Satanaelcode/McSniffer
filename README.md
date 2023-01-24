@@ -1,2 +1,2 @@
 # McSniffer
-A Simple Minecraft Server Information Gethering tool basedon mcstatus.
+A Simple Minecraft Server Information Gethering tool based on mcstatus.
