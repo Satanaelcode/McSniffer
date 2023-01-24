@@ -1,6 +1,6 @@
 import mcstatus
 
-logo = """
+print("""
              \033[44mA\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m
   \033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m            __  __      ___        _   __   __           
   \033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m\033[42mS\u001b[0m \033[44mA\u001b[0m\033[44mA\u001b[0m           |  \/  | __ / __| _ _  (_) / _| / _| ___  _ _ 
@@ -12,8 +12,7 @@ logo = """
   \033[33mT\u001b[0m\033[33mT\u001b[0m\033[33mT\u001b[0m\033[33mT\u001b[0m\033[33mT\u001b[0m\033[33mT\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m\033[33mT\u001b[0m\033[33mT\u001b[0m\033[33mT\u001b[0m\033[33mT\u001b[0m\033[33mT\u001b[0m\033[33mT\u001b[0m
        \033[44mA\u001b[0m\033[44mA\u001b[0m\033[44mA\u001b[0m
         \033[44mA\u001b[0m
-"""
-print(logo)
+""")
 
 print('Enter the IP address and port of the server in the format "IP:Port"')
 server_raw = input()
